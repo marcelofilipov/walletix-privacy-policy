@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos de Serviço - Walletix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #3B82F6;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .logo-text {
+            font-size: 36px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+
+        h1 {
+            color: #1e293b;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            color: #64748b;
+            font-size: 0.9em;
+        }
+
+        h2 {
+            color: #3B82F6;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        h3 {
+            color: #475569;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: #eff6ff;
+            border-left: 4px solid #3B82F6;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .warning-box {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .contact-box {
+            background: #f1f5f9;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .contact-box strong {
+            color: #3B82F6;
+            font-size: 1.1em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #e2e8f0;
+        }
+
+        th {
+            background: #3B82F6;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            color: #64748b;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #3B82F6;
+        }
+
+        /* Esta é a primeira página do site com links no corpo do texto; as
+           outras duas só têm o do rodapé. */
+        .container p a,
+        .container li a {
+            color: #3B82F6;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            thead {
+                display: none;
+            }
+
+            td {
+                border: none;
+                border-bottom: 1px solid #e2e8f0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <span class="logo-text">$</span>
+            </div>
+            <h1>Termos de Serviço</h1>
+            <p class="date">
+                <strong>Aplicativo:</strong> Walletix<br>
+                <strong>Desenvolvedor:</strong> Marcelo A. Filipov<br>
+                <strong>Última atualização:</strong> 21 de agosto de 2026
+            </p>
+        </div>
+
+        <h2>1. Quem somos e o que você está aceitando</h2>
+        <p>O Walletix é um aplicativo de finanças pessoais operado por <strong>Marcelo A. Filipov</strong>, com contato em <strong>contato@filipov.dev.br</strong>.</p>
+        <p>Ao criar uma conta ou usar o Walletix, você concorda com estes Termos. Se não concordar, não use o aplicativo.</p>
+        <p>Estes Termos funcionam junto com a nossa <a href="../">Política de Privacidade</a>, que explica como tratamos seus dados.</p>
+
+        <h2>2. O que o Walletix faz</h2>
+        <p>O Walletix é uma ferramenta para você registrar e acompanhar suas próprias finanças: receitas, despesas, categorias, metas e estatísticas.</p>
+        <p>Os dados são gravados primeiro no seu aparelho e sincronizados com nossos servidores em segundo plano, para que o app funcione mesmo sem conexão.</p>
+        <div class="warning-box">
+            <p><strong>O Walletix não é uma instituição financeira e não movimenta dinheiro.</strong> Não somos banco, corretora, meio de pagamento nem consultoria de investimentos. Não nos conectamos às suas contas bancárias e não realizamos transações em seu nome. Tudo que aparece no app é informação que você mesmo inseriu.</p>
+        </div>
+
+        <h2>3. Sua conta</h2>
+        <p>Para usar o Walletix você cria uma conta com e-mail e senha.</p>
+        <ul>
+            <li>Você é responsável por manter sua senha em sigilo e por tudo que acontecer na sua conta.</li>
+            <li>Os dados de cadastro devem ser verdadeiros e atualizados.</li>
+            <li>Você deve ter <strong>18 anos ou mais</strong>. Se tiver entre 16 e 18, precisa de assistência dos responsáveis legais. O Walletix não se destina a menores de 16 anos.</li>
+            <li>Cada pessoa deve ter apenas uma conta.</li>
+        </ul>
+        <p>Se identificarmos uso indevido, podemos suspender ou encerrar a conta — ver a seção 10.</p>
+
+        <h2>4. Plano gratuito e plano Premium</h2>
+        <p>O Walletix tem um plano gratuito e um plano Premium por assinatura.</p>
+
+        <h3>4.1 O que o plano gratuito inclui</h3>
+        <p>O plano gratuito permite registrar transações, categorias e metas, com os seguintes limites:</p>
+        <ul>
+            <li>Histórico de transações visível: <strong>últimos 30 dias</strong></li>
+            <li>Metas simultâneas: <strong>até 3</strong></li>
+            <li>Categorias personalizadas: <strong>não disponíveis</strong></li>
+            <li>Exportação de dados e relatórios avançados: <strong>não disponíveis</strong></li>
+        </ul>
+        <p>Esses limites podem ser ajustados por nós ao longo do tempo. Avisaremos no aplicativo quando houver mudança relevante.</p>
+
+        <h3>4.2 Teste grátis</h3>
+        <p>Novos usuários podem ter direito a um período de teste do Premium de <strong>7 dias</strong>, quando oferecido. Durante o teste você tem acesso aos recursos Premium sem cobrança.</p>
+        <p>Se você não cancelar antes do fim do teste, a assinatura é cobrada automaticamente conforme as regras da Google Play.</p>
+
+        <h3>4.3 Assinatura Premium</h3>
+        <p>O Premium é oferecido em planos <strong>mensal</strong> e <strong>anual</strong>, com renovação automática.</p>
+        <p>Os preços aparecem no aplicativo e na Google Play antes da confirmação da compra, na moeda e com os tributos aplicáveis ao seu país.</p>
+
+        <h2>5. Pagamento, renovação e cancelamento</h2>
+        <div class="highlight-box">
+            <p><strong>As compras do Walletix são processadas pela Google Play, não por nós.</strong> Não recebemos nem armazenamos os dados do seu cartão.</p>
+        </div>
+        <ul>
+            <li><strong>Renovação automática:</strong> a assinatura renova sozinha ao fim de cada período, pelo preço vigente, até que você cancele.</li>
+            <li><strong>Como cancelar:</strong> pela Google Play (Play Store → seu perfil → Pagamentos e assinaturas → Assinaturas). Desinstalar o aplicativo <strong>não</strong> cancela a assinatura.</li>
+            <li><strong>Efeito do cancelamento:</strong> você mantém o acesso Premium até o fim do período já pago. Não há reembolso proporcional pelo período restante, exceto nos casos previstos em lei ou nas políticas da Google.</li>
+            <li><strong>Mudança de preço:</strong> avisaremos com antecedência. Você pode cancelar antes que o novo preço passe a valer.</li>
+        </ul>
+
+        <h3>5.1 Direito de arrependimento</h3>
+        <p>Nos termos do <strong>art. 49 do Código de Defesa do Consumidor</strong>, você pode desistir da contratação em até <strong>7 dias</strong> a partir da compra, com devolução do valor pago.</p>
+        <p>Como a cobrança é feita pela Google, o pedido de reembolso deve ser aberto pela <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">central de reembolsos da Google Play</a>. Se tiver dificuldade, fale conosco em contato@filipov.dev.br que ajudamos no que estiver ao nosso alcance.</p>
+
+        <h3>5.2 Validação da assinatura</h3>
+        <p>Verificamos a validade da sua assinatura junto à Google. Se a Google informar que a assinatura foi cancelada, expirou, teve reembolso ou não pôde ser confirmada, os recursos Premium podem ser desativados.</p>
+
+        <h2>6. Uso aceitável</h2>
+        <p>Ao usar o Walletix, você concorda em <strong>não</strong>:</p>
+        <ul>
+            <li>Usar o aplicativo para qualquer finalidade ilícita;</li>
+            <li>Tentar acessar contas, dados ou sistemas que não sejam seus;</li>
+            <li>Fazer engenharia reversa, descompilar ou tentar extrair o código-fonte;</li>
+            <li>Burlar limites do plano gratuito, o processo de assinatura ou os mecanismos de segurança;</li>
+            <li>Sobrecarregar ou interferir na infraestrutura do serviço, inclusive por automação ou requisições em massa;</li>
+            <li>Reproduzir, revender ou redistribuir o aplicativo ou seu conteúdo.</li>
+        </ul>
+
+        <h2>7. Seus dados e seu conteúdo</h2>
+        <div class="highlight-box">
+            <p><strong>Os dados financeiros que você registra são seus.</strong> Não reivindicamos propriedade sobre eles.</p>
+        </div>
+        <p>Você nos concede apenas a autorização necessária para armazenar, sincronizar e processar esses dados com o objetivo de fazer o aplicativo funcionar para você — nada além disso.</p>
+        <ul>
+            <li><strong>Exportação:</strong> o plano Premium permite exportar seus dados em CSV.</li>
+            <li><strong>Backup:</strong> mantemos cópia sincronizada dos seus dados, mas <strong>recomendamos que você exporte periodicamente</strong> o que for importante. Não garantimos a recuperação de dados perdidos por falha do seu aparelho, desinstalação ou exclusão feita por você.</li>
+            <li><strong>Exclusão:</strong> você pode encerrar sua conta e apagar seus dados a qualquer momento, pelas configurações do aplicativo ou pela <a href="../exclusao-de-conta/">página de exclusão de conta</a>. Os dados são removidos conforme descrito na Política de Privacidade.</li>
+        </ul>
+
+        <h2>8. O aplicativo não é aconselhamento financeiro</h2>
+        <p>As estatísticas, gráficos, projeções e sugestões do Walletix são <strong>informativos</strong> e baseados exclusivamente nos dados que você inseriu.</p>
+        <p>Nada no aplicativo constitui recomendação de investimento, aconselhamento contábil, tributário ou jurídico. Decisões financeiras são suas, e recomendamos consultar um profissional habilitado quando for o caso.</p>
+        <p>Também não garantimos que os cálculos reflitam sua situação financeira real: se os dados inseridos estiverem incompletos ou incorretos, os resultados também estarão.</p>
+
+        <h2>9. Disponibilidade e alterações no serviço</h2>
+        <p>Trabalhamos para manter o Walletix disponível e funcionando, mas o serviço é fornecido <strong>no estado em que se encontra</strong>.</p>
+        <ul>
+            <li>Pode haver interrupções por manutenção, falha técnica, indisponibilidade de terceiros (Google, Firebase) ou motivos fora do nosso controle.</li>
+            <li>Podemos alterar, adicionar ou descontinuar recursos. Se formos descontinuar um recurso relevante do plano Premium, avisaremos com antecedência razoável.</li>
+            <li>Se descontinuarmos o Walletix por completo, avisaremos com antecedência e daremos um prazo para você exportar seus dados.</li>
+        </ul>
+
+        <h2>10. Suspensão e encerramento</h2>
+        <p><strong>Por você:</strong> pode encerrar sua conta a qualquer momento pelas configurações do aplicativo. Lembre-se de cancelar a assinatura pela Google Play separadamente.</p>
+        <p><strong>Por nós:</strong> podemos suspender ou encerrar sua conta em caso de violação destes Termos, uso fraudulento ou determinação legal. Sempre que possível, avisaremos antes e daremos oportunidade de corrigir a situação.</p>
+        <p>Se encerrarmos sua conta sem que você tenha violado estes Termos, devolveremos proporcionalmente o valor de assinatura ainda não usufruído.</p>
+
+        <h2>11. Propriedade intelectual</h2>
+        <p>O nome Walletix, o logotipo, a interface, os textos e o código do aplicativo são de nossa titularidade e protegidos por lei. Estes Termos não transferem nenhum desses direitos a você — concedem apenas licença pessoal, limitada, não exclusiva e intransferível de uso do aplicativo.</p>
+
+        <h2>12. Responsabilidade</h2>
+        <p>Respondemos pelos danos que causarmos nos limites da legislação aplicável, especialmente do Código de Defesa do Consumidor. <strong>Nenhuma cláusula destes Termos afasta direitos que a lei garante a você como consumidor.</strong></p>
+        <p>Não nos responsabilizamos por:</p>
+        <ul>
+            <li>Decisões financeiras tomadas com base nas informações do aplicativo;</li>
+            <li>Dados incorretos que você tenha inserido;</li>
+            <li>Falhas de conexão, do seu aparelho ou de serviços de terceiros;</li>
+            <li>Perda de dados nos casos descritos na seção 7.</li>
+        </ul>
+
+        <h2>13. Alterações nestes Termos</h2>
+        <p>Podemos atualizar estes Termos. Quando a mudança for relevante, avisaremos pelo aplicativo ou por e-mail com antecedência razoável.</p>
+        <p>A data da última atualização fica sempre no topo desta página. Continuar usando o Walletix após a entrada em vigor significa que você aceita a nova versão. Se não concordar, você pode encerrar sua conta.</p>
+
+        <h2>14. Lei aplicável e foro</h2>
+        <p>Estes Termos são regidos pelas leis da <strong>República Federativa do Brasil</strong>.</p>
+        <p>As controvérsias serão dirimidas pelo <strong>foro do domicílio do consumidor</strong>, nos termos do Código de Defesa do Consumidor.</p>
+
+        <h2>15. Fale conosco</h2>
+        <div class="contact-box">
+            <p>Dúvidas sobre estes Termos:</p>
+            <p><strong>contato@filipov.dev.br</strong></p>
+        </div>
+
+        <div class="footer">
+            <p>Walletix: Controle Orçamento</p>
+            <p><a href="../">Política de Privacidade</a> · <a href="../exclusao-de-conta/">Exclusão de Conta</a></p>
+        </div>
+    </div>
+</body>
+</html>
